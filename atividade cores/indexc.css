@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #FFFFFF;
+    transition: background-color 0.5s;
+    flex-direction: column;
+    display: flex;
+    font-size: 50px;
+}
+
+p{
+    font-size: 35px;
+    margin-top: 40px;
+}
+
+button{
+    border-radius: 20px;
+    width: 170px;
+    height: 100px;
+    color: white;
+    background-color:deeppink;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+h1{
+    color: pink;
+}
+
+h2{
+    color: pink;
+}
+
+
+input{
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    color: black;
+    background-color: black;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 10px;
+}
